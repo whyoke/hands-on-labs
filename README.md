@@ -16,7 +16,8 @@ Here, you can run prompt Llama3.1 on your local machine. After running Ollama, y
 
 **Task 2: Connect Python with Ollama**
 
-You can connect Python using [Langchain](https://www.langchain.com/) with Ollama
+You can connect Python using [Langchain](https://www.langchain.com/) with Ollama.
+Use [`00_Connect_Ollama_with_Langchain`](https://github.com/biodatlab/bme-labs/blob/main/notebooks/00_Connect_Ollama_with_Langchain.ipynb) to try it out after running Ollama.
 
 ```py
 %%capture
@@ -63,5 +64,5 @@ get_model_response(user_prompt, system_prompt)
 
 **Task 3: Transcribe Youtube video and summarize the transcriptions**
 
-- Use `notebooks` 01 to transcribe the text from Youtube URL (select one URL) and 02 to write a summarization prompt
+- Use [`01_Thonburian_Whisper_Longform_Youtube`](https://github.com/biodatlab/bme-labs/blob/main/notebooks/01_Thonburian_Whisper_Longform_Youtube.ipynb) to transcribe the text from Youtube URL (select one URL) and [`02_Ollama_Summarize_Transcript`](https://github.com/biodatlab/bme-labs/blob/main/notebooks/02_Ollama_Summarize_Transcript.ipynb) to write a summarization prompt
 - Your task is to write a prompt to summarize the text from your selected Youtube URL
