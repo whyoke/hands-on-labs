@@ -5,6 +5,8 @@ Lab II teaches 3rd year student where we aim to have them run
 
 ## Lab II: Running Large Language Model
 
+**Task 1: Running Open WebUI**
+
 - Download [Ollama](https://ollama.com/) on your laptop, then run `ollama run llama3.1`
 
 Here, you can run prompt Llama3.1 on your local machine. After running Ollama, you can connect with Open WebUI:
@@ -12,7 +14,9 @@ Here, you can run prompt Llama3.1 on your local machine. After running Ollama, y
 - Download [docker](https://www.docker.com/products/docker-desktop/) on your laptop
 - Run [Open WebUI](https://github.com/open-webui/open-webui) using `docker` and goes to http://localhost:3000/ to prompt! You can check the section "If Ollama is on your computer, use this command: ..."
 
-Or even connect with [Langchain](https://www.langchain.com/)
+**Task 2: Connect Python with Ollama**
+
+You can connect Python using [Langchain](https://www.langchain.com/) with Ollama
 
 ```py
 %%capture
@@ -57,7 +61,7 @@ system_prompt = "You are a helpful assistant doing as the given prompt."
 get_model_response(user_prompt, system_prompt)
 ```
 
-**Your task is to:**
-- Use `notebooks` folder to transcribe the text from Youtube URL (select one URL)
-- Use the given prompt to clean the transcribed text
-- Write a prompt to summarize the text from your selected Youtube URL
+**Task 3: Transcribe Youtube video and summarize the transcriptions**
+
+- Use `notebooks` 01 to transcribe the text from Youtube URL (select one URL) and 02 to write a summarization prompt
+- Your task is to write a prompt to summarize the text from your selected Youtube URL
