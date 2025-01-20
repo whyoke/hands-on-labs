@@ -4,7 +4,7 @@ This is part of the code for BME Lab at Mahidol University.
 
 ### Building Machine Learning Application with Gradio
 
-Gradio is a powerful tool for creating web interfaces for machine learning models.
+**Gradio** is a powerful tool for creating web interfaces for machine learning models.
 In this lab, students will learn to build practical medical applications using Gradio's intuitive interface.
 
 <p align="center">
